@@ -858,3 +858,108 @@ section{
     font-size:42px;
     margin-bottom:0;
 }
+/* ================= MOBILE ================= */
+
+@media (max-width:768px){
+
+header{
+    padding:15px 20px;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.logo img{
+    width:65px;
+}
+
+nav{
+    width:100%;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    font-size:15px;
+}
+
+.order-btn{
+    padding:12px 22px;
+    font-size:14px;
+}
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.left,
+.right,
+.about-content,
+.about-image{
+    width:100%;
+}
+
+.left h1{
+    font-size:55px;
+}
+
+.left h3{
+    font-size:28px;
+}
+
+.left p{
+    font-size:18px;
+}
+
+.buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.hero-img{
+    width:100%;
+    max-width:380px;
+}
+
+.circle{
+    width:320px;
+    height:320px;
+}
+
+.why-container,
+.flavour-container,
+.gallery-grid{
+    grid-template-columns:1fr;
+}
+
+.about{
+    flex-direction:column;
+}
+
+.features{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.story-points{
+    grid-template-columns:1fr;
+}
+
+.contact-box{
+    flex-direction:column;
+    gap:25px;
+    align-items:center;
+}
+
+.contact-box div{
+    width:100%;
+    max-width:320px;
+}
+
+.gallery-grid img{
+    height:auto;
+}
+
+}
