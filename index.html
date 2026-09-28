@@ -9,7 +9,7 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -35,64 +35,78 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#products">Products</a>
+        <a href="#new-flavour">New</a>
         <a href="#gallery">Gallery</a>
         <a href="#contact">Contact</a>
     </nav>
 
-    <a href="https://wa.me/917034457968?text=Hi%20Tudding!%20I%20would%20like%20to%20place%20an%20order." target="_blank" class="order-btn btn">
+    <a href="https://wa.me/917034457968?text=Hi%20Tudding!%20I%20would%20like%20to%20place%20an%20order."
+       target="_blank"
+       class="order-btn btn">
         Order Now
     </a>
 </header>
+
 
 <!--========== HERO ==========-->
 
 <section class="hero" id="home">
 
-<div class="left">
+    <div class="left">
 
-<h1>TUDDING</h1>
+        <span class="hero-label">
+            A TASTE OF KERALA
+        </span>
 
-<h3>Tender Coconut Pudding</h3>
+        <h1>TUDDING</h1>
 
-<p>
+        <h3>Tender Coconut Pudding</h3>
 
-Cool. Creamy. Naturally Kerala.
+        <p>
+            Cool. Creamy. Naturally Kerala.
+        </p>
 
-</p>
+        <div class="buttons">
 
-<div class="buttons">
+            <a href="#products" class="btn">
+                Explore Flavours
+            </a>
 
-<a href="#products">
+            <a href="#contact" class="outline-btn">
+                Contact Us
+            </a>
 
-Explore Flavours
+        </div>
 
-</a>
+    </div>
 
-<a href="#contact">Contact Us</a>
+    <div class="right">
 
-</div>
+        <div class="circle"></div>
 
-</div>
+        <img src="images/hero.png"
+             class="hero-img"
+             alt="Tudding Tender Coconut Pudding">
 
-<div class="right">
-
-<div class="circle"></div>
-
-<img src="images/hero.png" class="hero-img">
-
-</div>
+    </div>
 
 </section>
-<!-- ================= WHY CHOOSE ================= -->
+
+
+<!--================ WHY CHOOSE =================-->
 
 <section class="why">
 
-    <h2>Why Choose Tudding?</h2>
+    <div class="section-heading">
+        <span>THE TUDDING DIFFERENCE</span>
+        <h2>Why Choose Tudding?</h2>
+        <p>Simple ingredients. Kerala-inspired flavours. Made with care.</p>
+    </div>
 
     <div class="why-container">
 
         <div class="box">
-          <i class="fa-solid fa-seedling"></i>
+            <i class="fa-solid fa-seedling"></i>
             <h3>Real Tender Coconut</h3>
             <p>Made using fresh tender coconut for an authentic Kerala taste.</p>
         </div>
@@ -118,64 +132,176 @@ Explore Flavours
     </div>
 
 </section>
+
+
 <!--================ OUR FLAVOURS ================-->
 
 <section class="flavours" id="products">
 
-    <h2>Our Flavours</h2>
+    <div class="section-heading">
+        <span>EXPLORE THE MENU</span>
+        <h2>Our Flavours</h2>
+        <p>Discover your favourite taste of Tudding.</p>
+    </div>
 
     <div class="flavour-container">
 
-        <!-- Tender Only -->
+        <!-- Tender Coconut -->
 
         <div class="card">
 
-            <img src="images/tender.png" alt="Tender Coconut">
+            <div class="card-image">
+                <img src="images/tender.png" alt="Tender Coconut">
+            </div>
 
-            <h3>Tender Coconut</h3>
+            <div class="card-content">
 
-            <p>Pure tender coconut pudding with a rich creamy taste.</p>
+                <span class="flavour-tag">CLASSIC</span>
 
-            <a href="#contact">Order Now</a>
+                <h3>Tender Coconut</h3>
+
+                <p>
+                    Pure tender coconut pudding with a rich creamy taste.
+                </p>
+
+                <a href="#contact">
+                    Order Now <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
 
         </div>
+
 
         <!-- Carrot -->
 
         <div class="card">
 
-            <img src="images/carrot.png" alt="Carrot">
+            <div class="card-image">
+                <img src="images/carrot.png" alt="Tender Carrot">
+            </div>
 
-            <h3>Tender + Carrot</h3>
+            <div class="card-content">
 
-            <p>Fresh carrot blended with tender coconut goodness.</p>
+                <span class="flavour-tag">SIGNATURE</span>
 
-            <a href="#contact">Order Now</a>
+                <h3>Tender + Carrot</h3>
+
+                <p>
+                    Fresh carrot blended with tender coconut goodness.
+                </p>
+
+                <a href="#contact">
+                    Order Now <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
 
         </div>
+
 
         <!-- Mango -->
 
         <div class="card">
 
-            <img src="images/mango.png" alt="Mango">
+            <div class="card-image">
+                <img src="images/mango.png" alt="Tender Mango">
+            </div>
 
-            <h3>Tender + Mango</h3>
+            <div class="card-content">
 
-            <p>Juicy mango mixed with creamy tender coconut.</p>
+                <span class="flavour-tag">FAVOURITE</span>
 
-            <a href="#contact">Order Now</a>
+                <h3>Tender + Mango</h3>
+
+                <p>
+                    Juicy mango mixed with creamy tender coconut.
+                </p>
+
+                <a href="#contact">
+                    Order Now <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
 
         </div>
 
     </div>
 
 </section>
+
+
+<!--================ NEW FLAVOUR ================-->
+
+<section class="new-flavour" id="new-flavour">
+
+    <div class="new-flavour-image">
+
+        <img src="images/gallery5.jpg"
+             alt="Tudding Tender Tapioca">
+
+    </div>
+
+    <div class="new-flavour-content">
+
+        <span class="new-badge">
+            <i class="fa-solid fa-sparkles"></i>
+            NEW FLAVOUR
+        </span>
+
+        <span class="small-title">
+            JUST DROPPED
+        </span>
+
+        <h2>
+            Tender<br>
+            <span>Tapioca</span>
+        </h2>
+
+        <p class="new-intro">
+            A fresh new twist on the Tudding experience.
+        </p>
+
+        <p>
+            Creamy tender coconut paired with tapioca extract,
+            created for a smooth and delicious Kerala-inspired
+            dessert experience.
+        </p>
+
+        <div class="new-highlights">
+
+            <div>
+                <i class="fa-solid fa-leaf"></i>
+                <span>Kerala Inspired</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-heart"></i>
+                <span>Made with Care</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-star"></i>
+                <span>New Experience</span>
+            </div>
+
+        </div>
+
+        <a href="https://wa.me/917034457968?text=Hi%20Tudding!%20I%20would%20like%20to%20order%20Tender%20Tapioca."
+           target="_blank"
+           class="new-order-btn">
+            Try Tender Tapioca
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
 <!--================ ABOUT =================-->
 
 <section class="about" id="about">
-
-    <!-- Left Side -->
 
     <div class="about-content">
 
@@ -211,13 +337,14 @@ Explore Flavours
 
     </div>
 
-    <!-- Right Side -->
 
     <div class="about-image">
 
         <div class="story-card">
 
-            <h2>Our Story</h2>
+            <span class="story-label">OUR STORY</span>
+
+            <h2>From Kerala,<br>With Love.</h2>
 
             <p>
                 TUDDING was created with a passion for bringing the refreshing
@@ -232,11 +359,16 @@ Explore Flavours
                 <div>🌿 Natural Ingredients</div>
                 <div>❄ Served Chilled</div>
                 <div>❤️ Made with Love</div>
+
                 <div class="founder">
-    <p><strong>Founded by</strong></p>
-    <h4>Mohammed Ansif MK</h4>
-    <span>Malappuram, Kerala</span>
-</div>
+
+                    <p><strong>Founded by</strong></p>
+
+                    <h4>Mohammed Ansif MK</h4>
+
+                    <span>Malappuram, Kerala</span>
+
+                </div>
 
             </div>
 
@@ -245,76 +377,130 @@ Explore Flavours
     </div>
 
 </section>
+
+
 <!--================ GALLERY ================-->
 
 <section class="gallery" id="gallery">
 
-    <h2>Moments with Tudding</h2>
+    <div class="section-heading">
+        <span>FROM OUR WORLD</span>
+        <h2>Moments with Tudding</h2>
+        <p>A little taste of the Tudding experience.</p>
+    </div>
 
     <div class="gallery-grid">
 
-        <img src="images/gallery1.jpg" alt="">
-        <img src="images/gallery2.jpg" alt="">
-        <img src="images/gallery3.jpg" alt="">
-        <img src="images/gallery4.jpg" alt="">
-        <img src="images/gallery5.jpg" alt="">
-        <img src="images/gallery6.jpg" alt="">
+        <img src="images/gallery1.jpg" alt="Tudding">
+        <img src="images/gallery2.jpg" alt="Tudding">
+        <img src="images/gallery3.jpg" alt="Tudding">
+        <img src="images/gallery4.jpg" alt="Tudding">
+        <img src="images/gallery5.jpg" alt="Tudding">
+        <img src="images/gallery6.jpg" alt="Tudding">
 
     </div>
 
 </section>
+
 
 <!--================ CONTACT ================-->
 
 <section class="contact" id="contact">
 
-    <h2>Get in Touch</h2>
-
-    <p>We'd love to hear from you.</p>
+    <div class="section-heading">
+        <span>LET'S CONNECT</span>
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you.</p>
+    </div>
 
     <div class="contact-box">
 
-        <div>
-            <i class="fa-brands fa-instagram"></i>
-            <a href="https://www.instagram.com/tudding.in" target="_blank" class="insta-link">
-    @tudding.in
-</a>
-        </div>
+        <a href="https://www.instagram.com/tudding.in"
+           target="_blank"
+           class="contact-card">
 
-        <div>
+            <i class="fa-brands fa-instagram"></i>
+
+            <div>
+                <span>FOLLOW US</span>
+                <strong>@tudding.in</strong>
+            </div>
+
+            <i class="fa-solid fa-arrow-up-right-from-square small-arrow"></i>
+
+        </a>
+
+
+        <a href="https://wa.me/917034457968"
+           target="_blank"
+           class="contact-card">
+
             <i class="fa-brands fa-whatsapp"></i>
-            <a href="https://wa.me/917034457968" target="_blank" class="whatsapp-link">
-    +91 7034457968
-</a>
-        </div>
+
+            <div>
+                <span>ORDER ON WHATSAPP</span>
+                <strong>+91 7034457968</strong>
+            </div>
+
+            <i class="fa-solid fa-arrow-up-right-from-square small-arrow"></i>
+
+        </a>
 
     </div>
 
 </section>
 
+
 <!--================ FOOTER ================-->
 
 <footer>
 
-    <img src="images/logo.png" class="footer-logo">
+    <div class="footer-inner">
 
-    <h3>TUDDING</h3>
+        <div class="footer-brand">
 
-    <p>Cool. Creamy. Naturally Kerala.</p>
+            <img src="images/logo.png" class="footer-logo" alt="Tudding">
 
-    <div class="social">
+            <h3>TUDDING</h3>
 
-        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <p>Cool. Creamy. Naturally Kerala.</p>
 
-        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#new-flavour">New Flavour</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <div class="social">
+
+            <a href="https://www.instagram.com/tudding.in" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://wa.me/917034457968" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+        </div>
 
     </div>
 
-    <small>2026 TUDDING. All Rights Reserved.</small>
+    <div class="footer-bottom">
+        <small>© 2026 TUDDING. All Rights Reserved.</small>
+        <span>A Taste of Kerala</span>
+    </div>
 
 </footer>
 
-<script src="script.js" defer></script>
-</body>
 
+<script src="script.js" defer></script>
+
+</body>
 </html>
